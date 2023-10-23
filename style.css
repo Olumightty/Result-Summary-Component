@@ -1,0 +1,129 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    margin: 30%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 0px 10px 0px lightgray;
+    padding-right: 30px;
+}
+
+.circle{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+
+.right div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+
+img{
+    margin-right:  10px;
+    position: relative;
+    top: 5px;
+}
+
+
+.red{
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%,  10%);
+}
+
+.blue{
+    background-color: hsl(221, 100%, 96%);
+    color: hsl(234, 85%, 45%);
+}
+
+.yellow{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 10%);
+}
+
+.green{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 10%);
+}
+
+.dark, .darks{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+span{
+    color: gray;
+}
+
+.light{
+    color: hsl(221, 100%, 96%, 60%);
+    font-size: 18px;
+}
+
+.biggest{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+.bigger{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.small{
+    font-size: 16px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
