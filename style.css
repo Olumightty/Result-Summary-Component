@@ -10,6 +10,7 @@
     border-bottom-right-radius: 30px;
     box-shadow: 10px 0px 10px 0px lightgray;
     padding-right: 30px;
+    width: fit-content;
 }
 
 .circle{
