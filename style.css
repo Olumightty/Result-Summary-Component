@@ -127,3 +127,15 @@ span{
     margin-left: 40px;
     margin-right: 40px;
 }
+
+@media screen and (max-width: 400px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        left: -8px;
+    }
+}
