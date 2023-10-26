@@ -148,8 +148,7 @@ span{
         max-width: 1300px;
         margin: 0;
         padding: 0;
-        position: relative;
-        left: -8px;
+        box-shadow: none;
 
     }
 }
